@@ -18,12 +18,12 @@ from datetime import datetime
 
 # Constants
 VeraWinPath = '"c:\\Program Files\\VeraCrypt\\VeraCrypt.exe"'
-VeraWinAttributes = ' /v "%s" /q /p "%s" /s /l %s'
+VeraWinAttributes = ' /v "%s" /q /p "%s" /s /l %s /a'
 VeraWinProcList = "query process"
 VeraWinProcName = "veracrypt.exe"
 VeraMacPath = '/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt'
 VeraLinuxPath = 'veracrypt'
-VeraLinuxAttributes = ' -t %s -p %s --non-interactive'
+VeraLinuxAttributes = ' -t %s -p "%s" --non-interactive'
 
 # Functions
 
